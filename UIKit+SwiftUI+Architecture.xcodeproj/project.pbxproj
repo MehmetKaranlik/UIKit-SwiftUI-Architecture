@@ -82,7 +82,7 @@
 		46D960EC29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture */ = {
 			isa = PBXGroup;
 			children = (
-				46D9612D29A2D7D2008F54E6 /* DesignKit */,
+				46D9613C29A2ED75008F54E6 /* DesignKit */,
 				46D9611029A2CA28008F54E6 /* Core */,
 				46D9610329A2C97A008F54E6 /* Feature */,
 				46D9610129A2C964008F54E6 /* Resources */,
@@ -262,17 +262,6 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		46D9612D29A2D7D2008F54E6 /* DesignKit */ = {
-			isa = PBXGroup;
-			children = (
-				46D9613929A2E3DB008F54E6 /* Padding */,
-				46D9613429A2DDFC008F54E6 /* Kit */,
-				46D9612F29A2D7F2008F54E6 /* Extensions */,
-				46D9613229A2DD44008F54E6 /* DesignKit.swift */,
-			);
-			name = DesignKit;
-			sourceTree = "<group>";
-		};
 		46D9612F29A2D7F2008F54E6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +285,17 @@
 				46D9613A29A2E3E4008F54E6 /* PagePadding.swift */,
 			);
 			name = Padding;
+			sourceTree = "<group>";
+		};
+		46D9613C29A2ED75008F54E6 /* DesignKit */ = {
+			isa = PBXGroup;
+			children = (
+				46D9613929A2E3DB008F54E6 /* Padding */,
+				46D9613429A2DDFC008F54E6 /* Kit */,
+				46D9612F29A2D7F2008F54E6 /* Extensions */,
+				46D9613229A2DD44008F54E6 /* DesignKit.swift */,
+			);
+			name = DesignKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
