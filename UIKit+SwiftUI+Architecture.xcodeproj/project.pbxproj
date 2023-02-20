@@ -27,6 +27,8 @@
 		46D9613829A2E04C008F54E6 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9613729A2E04C008F54E6 /* Sizes.swift */; };
 		46D9613B29A2E3E4008F54E6 /* PagePadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9613A29A2E3E4008F54E6 /* PagePadding.swift */; };
 		46D9615629A2F37C008F54E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46D9615529A2F37B008F54E6 /* README.md */; };
+		46D9615A29A2F412008F54E6 /* NetworkManagerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 46D9615929A2F412008F54E6 /* NetworkManagerPackage */; };
+		46D9615C29A2F41E008F54E6 /* ProductNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9615B29A2F41E008F54E6 /* ProductNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,7 @@
 		46D9613729A2E04C008F54E6 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
 		46D9613A29A2E3E4008F54E6 /* PagePadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePadding.swift; sourceTree = "<group>"; };
 		46D9615529A2F37B008F54E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46D9615B29A2F41E008F54E6 /* ProductNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D9615A29A2F412008F54E6 /* NetworkManagerPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +240,7 @@
 		46D9615029A2F006008F54E6 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				46D9615729A2F3EB008F54E6 /* Networking */,
 				46D9615129A2F00B008F54E6 /* Extensions */,
 			);
 			path = Core;
@@ -277,6 +282,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		46D9615729A2F3EB008F54E6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				46D9615B29A2F41E008F54E6 /* ProductNetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,6 +306,9 @@
 			dependencies = (
 			);
 			name = "UIKit+SwiftUI+Architecture";
+			packageProductDependencies = (
+				46D9615929A2F412008F54E6 /* NetworkManagerPackage */,
+			);
 			productName = "UIKit+SwiftUI+Architecture";
 			productReference = 46D960EA29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture.app */;
 			productType = "com.apple.product-type.application";
@@ -321,6 +337,9 @@
 				Base,
 			);
 			mainGroup = 46D960E129A2C64B008F54E6;
+			packageReferences = (
+				46D9615829A2F412008F54E6 /* XCRemoteSwiftPackageReference "NetworkManager" */,
+			);
 			productRefGroup = 46D960EB29A2C64B008F54E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -351,6 +370,7 @@
 				46D9611E29A2D1F3008F54E6 /* UIWindow+Extensions.swift in Sources */,
 				46D9612829A2D437008F54E6 /* SearchViewController.swift in Sources */,
 				46D9611529A2CAD3008F54E6 /* UIHostingController+Extensions.swift in Sources */,
+				46D9615C29A2F41E008F54E6 /* ProductNetworkManager.swift in Sources */,
 				46D9610D29A2C9AF008F54E6 /* LoginViewController.swift in Sources */,
 				46D9611A29A2CC8E008F54E6 /* MainTabController.swift in Sources */,
 				46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */,
@@ -561,6 +581,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		46D9615829A2F412008F54E6 /* XCRemoteSwiftPackageReference "NetworkManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MehmetKaranlik/NetworkManager";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46D9615929A2F412008F54E6 /* NetworkManagerPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D9615829A2F412008F54E6 /* XCRemoteSwiftPackageReference "NetworkManager" */;
+			productName = NetworkManagerPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46D960E229A2C64B008F54E6 /* Project object */;
 }
