@@ -82,9 +82,9 @@
 		46D960EC29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				46D9615029A2F006008F54E6 /* Core */,
 				46D9613E29A2EE05008F54E6 /* Features */,
 				46D9613D29A2EDD3008F54E6 /* DesignKit */,
-				46D9611029A2CA28008F54E6 /* Core */,
 				46D9610129A2C964008F54E6 /* Resources */,
 			);
 			path = "UIKit+SwiftUI+Architecture";
@@ -99,25 +99,6 @@
 				46D960FB29A2C64C008F54E6 /* Info.plist */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		46D9611029A2CA28008F54E6 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				46D9611129A2CA2C008F54E6 /* Extensions */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		46D9611129A2CA2C008F54E6 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				46D9611229A2CA37008F54E6 /* View+Extensions.swift */,
-				46D9611429A2CAD3008F54E6 /* UIHostingController+Extensions.swift */,
-				46D9611B29A2CCFF008F54E6 /* UIViewController+Extensions.swift */,
-				46D9611D29A2D1F3008F54E6 /* UIWindow+Extensions.swift */,
-			);
-			name = Extensions;
 			sourceTree = "<group>";
 		};
 		46D9612F29A2D7F2008F54E6 /* Extensions */ = {
@@ -275,6 +256,25 @@
 				46D9611929A2CC8E008F54E6 /* MainTabController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		46D9615029A2F006008F54E6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				46D9615129A2F00B008F54E6 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		46D9615129A2F00B008F54E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46D9611229A2CA37008F54E6 /* View+Extensions.swift */,
+				46D9611429A2CAD3008F54E6 /* UIHostingController+Extensions.swift */,
+				46D9611B29A2CCFF008F54E6 /* UIViewController+Extensions.swift */,
+				46D9611D29A2D1F3008F54E6 /* UIWindow+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
