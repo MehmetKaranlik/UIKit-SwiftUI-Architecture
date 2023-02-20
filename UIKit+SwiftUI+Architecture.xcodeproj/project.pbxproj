@@ -26,6 +26,7 @@
 		46D9613629A2DE15008F54E6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9613529A2DE15008F54E6 /* Colors.swift */; };
 		46D9613829A2E04C008F54E6 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9613729A2E04C008F54E6 /* Sizes.swift */; };
 		46D9613B29A2E3E4008F54E6 /* PagePadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9613A29A2E3E4008F54E6 /* PagePadding.swift */; };
+		46D9615629A2F37C008F54E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46D9615529A2F37B008F54E6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		46D9613529A2DE15008F54E6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		46D9613729A2E04C008F54E6 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
 		46D9613A29A2E3E4008F54E6 /* PagePadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePadding.swift; sourceTree = "<group>"; };
+		46D9615529A2F37B008F54E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		46D960E129A2C64B008F54E6 = {
 			isa = PBXGroup;
 			children = (
+				46D9615529A2F37B008F54E6 /* README.md */,
 				46D960EC29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture */,
 				46D960EB29A2C64B008F54E6 /* Products */,
 			);
@@ -332,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D9615629A2F37C008F54E6 /* README.md in Resources */,
 				46D960F729A2C64C008F54E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
