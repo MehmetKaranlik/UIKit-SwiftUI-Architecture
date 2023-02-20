@@ -101,40 +101,12 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		46D9612F29A2D7F2008F54E6 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				46D9613029A2D827008F54E6 /* ViewContoller+Extensions.swift */,
-			);
-			name = Extensions;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		46D9613429A2DDFC008F54E6 /* Kit */ = {
-			isa = PBXGroup;
-			children = (
-				46D9613529A2DE15008F54E6 /* Colors.swift */,
-				46D9613729A2E04C008F54E6 /* Sizes.swift */,
-			);
-			name = Kit;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		46D9613929A2E3DB008F54E6 /* Padding */ = {
-			isa = PBXGroup;
-			children = (
-				46D9613A29A2E3E4008F54E6 /* PagePadding.swift */,
-			);
-			name = Padding;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		46D9613D29A2EDD3008F54E6 /* DesignKit */ = {
 			isa = PBXGroup;
 			children = (
-				46D9613929A2E3DB008F54E6 /* Padding */,
-				46D9613429A2DDFC008F54E6 /* Kit */,
-				46D9612F29A2D7F2008F54E6 /* Extensions */,
+				46D9615429A2F32B008F54E6 /* Extensions */,
+				46D9615329A2F318008F54E6 /* Kit */,
+				46D9615229A2F306008F54E6 /* Padding */,
 				46D9613229A2DD44008F54E6 /* DesignKit.swift */,
 			);
 			path = DesignKit;
@@ -273,6 +245,31 @@
 				46D9611429A2CAD3008F54E6 /* UIHostingController+Extensions.swift */,
 				46D9611B29A2CCFF008F54E6 /* UIViewController+Extensions.swift */,
 				46D9611D29A2D1F3008F54E6 /* UIWindow+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46D9615229A2F306008F54E6 /* Padding */ = {
+			isa = PBXGroup;
+			children = (
+				46D9613A29A2E3E4008F54E6 /* PagePadding.swift */,
+			);
+			path = Padding;
+			sourceTree = "<group>";
+		};
+		46D9615329A2F318008F54E6 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				46D9613529A2DE15008F54E6 /* Colors.swift */,
+				46D9613729A2E04C008F54E6 /* Sizes.swift */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		46D9615429A2F32B008F54E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46D9613029A2D827008F54E6 /* ViewContoller+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
