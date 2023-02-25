@@ -9,6 +9,7 @@ import Foundation
 
 
 import UIKit
+import DesignKit
 
 
 class HomeViewController : UIViewController {

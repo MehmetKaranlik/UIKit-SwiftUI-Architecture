@@ -7,6 +7,7 @@
 
 import Foundation
 import NetworkManagerPackage
+import Core
 
 struct ProductNetworkManager {
 

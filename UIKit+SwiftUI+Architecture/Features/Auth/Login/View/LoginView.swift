@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import DesignKit
 
 protocol LoginDelegate {
    func didTapNext()
@@ -19,10 +20,7 @@ struct LoginView: View {
    
     var body: some View {
        ScrollView {
-          Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-             .onTapGesture {
-                delegate?.didTapNext()
-             }
+          ProductText.largeTitle("asd")
        }
 
     }
