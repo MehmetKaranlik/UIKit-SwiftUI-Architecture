@@ -10,17 +10,18 @@ import NetworkManagerPackage
 
 struct ProductNetworkManager {
 
-   let networkManager : NetworkManager
-
+   let networkManager : any INetworkManager
+   
    init() {
       self.networkManager = NetworkManager(
          options: NetworkingOption(
             baseUrl: "www.example.com",
             onRefresh: nil,
             onRefreshFail: nil,
-            enableLogger: true
+            enableLogger: true,
+            errorModel: BaseErrorModel.self,
+            timeoutDuration: Durations.timeout.rawValue
          )
       )
    }
-
 }

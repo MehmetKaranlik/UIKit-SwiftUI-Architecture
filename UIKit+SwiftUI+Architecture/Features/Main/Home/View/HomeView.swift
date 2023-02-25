@@ -11,7 +11,7 @@ struct HomeView: View {
     var body: some View {
        ZStack {
           Rectangle()
-             .fill(Color.yellow.gradient)
+             .fill(Color.blue.gradient)
           Text("HomeView")
        }
  

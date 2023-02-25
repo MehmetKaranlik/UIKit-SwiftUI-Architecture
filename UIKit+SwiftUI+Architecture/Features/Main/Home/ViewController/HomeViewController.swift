@@ -18,7 +18,7 @@ class HomeViewController : UIViewController {
       super.viewDidLoad()
       let hosted = homeView.toHostingController()
       hosted.addToVC(target: self)
-      configureNavigationBar(backgroundColor: .black)
+      setNavigationTitle("home",prefersLargeTitle: false)
    }
 
       // MARK:  Makers

@@ -167,21 +167,37 @@ struct PagePadding {
 
    var size: AppSizes
 
-   var xxSmall: EdgeInsets
+    var xxSmall: EdgeInsets {
+       return EdgeInsets(top: 0, leading: size.xxSmall, bottom: 0, trailing: 0)
+    }
 
-   var xSmall: EdgeInsets
+    var xSmall: EdgeInsets {
+       return EdgeInsets(top: 0, leading: size.xSmall, bottom: 0, trailing: 0)
+    }
 
-   var standart: EdgeInsets
+    var standart: EdgeInsets {
+       return EdgeInsets(top: 0, leading: size.standart, bottom: 0, trailing: 0)
+    }
 
-   var small: EdgeInsets
+    var small: EdgeInsets {
+       return EdgeInsets(top: 0, leading: size.small, bottom: 0, trailing: 0)
+    }
 
-   var medium: EdgeInsets
+    var medium: EdgeInsets {
+       return EdgeInsets(top: 0, leading: size.medium, bottom: 0, trailing: 0)
+    }
 
-   var large: EdgeInsets
+    var large: EdgeInsets {
+       return EdgeInsets(top: 0, leading: size.large, bottom: 0, trailing: 0)
+    }
 
-   var xLarge: EdgeInsets
+    var xLarge: EdgeInsets {
+       return EdgeInsets(top: 0, leading: size.xLarge, bottom: 0, trailing: 0)
+    }
 
-   var xxLarge: EdgeInsets
+    var xxLarge: EdgeInsets {
+       return EdgeInsets(top: 0, leading: size.xxLarge, bottom: 0, trailing: 0)
+    }
 }
 
  struct Right: EdgeInsetsTypes {
@@ -189,19 +205,115 @@ struct PagePadding {
 
    var size: AppSizes
 
-   var xxSmall: EdgeInsets
+    var xxSmall: EdgeInsets {
+       return EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: size.xxSmall)
+    }
 
-   var xSmall: EdgeInsets
+    var xSmall: EdgeInsets {
+       return EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: size.xSmall)
+    }
 
-   var standart: EdgeInsets
+    var standart: EdgeInsets {
+       return EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: size.standart)
+    }
 
-   var small: EdgeInsets
+    var small: EdgeInsets {
+       return EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: size.small)
+    }
 
-   var medium: EdgeInsets
+    var medium: EdgeInsets {
+       return EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: size.medium)
+    }
 
-   var large: EdgeInsets
+    var large: EdgeInsets {
+       return EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: size.large)
+    }
 
-   var xLarge: EdgeInsets
+    var xLarge: EdgeInsets {
+       return EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: size.xLarge)
+    }
 
-   var xxLarge: EdgeInsets
+    var xxLarge: EdgeInsets {
+       return EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: size.xxLarge)
+    }
 }
+
+struct Top: EdgeInsetsTypes {
+
+
+   var size: AppSizes
+
+   var xxSmall: EdgeInsets {
+      return EdgeInsets(top: size.xxSmall, leading: 0, bottom: 0, trailing: 0)
+   }
+
+   var xSmall: EdgeInsets {
+      return EdgeInsets(top: size.xSmall, leading: 0, bottom: 0, trailing: 0)
+   }
+
+   var standart: EdgeInsets {
+      return EdgeInsets(top: size.standart, leading:0, bottom: 0, trailing: 0)
+   }
+
+   var small: EdgeInsets {
+      return EdgeInsets(top: size.small, leading: 0, bottom: 0, trailing: 0)
+   }
+
+   var medium: EdgeInsets {
+      return EdgeInsets(top: size.medium, leading:0 , bottom: 0, trailing: 0)
+   }
+
+   var large: EdgeInsets {
+      return EdgeInsets(top: size.large, leading:0 , bottom: 0, trailing: 0)
+   }
+
+   var xLarge: EdgeInsets {
+      return EdgeInsets(top: size.xLarge, leading:0 , bottom: 0, trailing: 0)
+   }
+
+   var xxLarge: EdgeInsets {
+      return EdgeInsets(top: size.xxLarge, leading: 0, bottom: 0, trailing: 0)
+   }
+}
+
+struct Bottom: EdgeInsetsTypes {
+
+
+   var size: AppSizes
+
+   var xxSmall: EdgeInsets {
+      return EdgeInsets(top: 0, leading: 0, bottom: size.xxSmall, trailing: 0)
+   }
+
+   var xSmall: EdgeInsets {
+      return EdgeInsets(top: 0, leading: 0, bottom: size.xSmall, trailing: 0)
+   }
+
+   var standart: EdgeInsets {
+      return EdgeInsets(top: 0, leading: 0, bottom: size.standart, trailing: 0)
+   }
+
+   var small: EdgeInsets {
+      return EdgeInsets(top: 0, leading: 0, bottom: size.small, trailing: 0)
+   }
+
+   var medium: EdgeInsets {
+      return EdgeInsets(top: 0, leading: 0, bottom: size.medium, trailing: 0)
+   }
+
+   var large: EdgeInsets {
+      return EdgeInsets(top: 0, leading: 0, bottom: size.large, trailing: 0)
+   }
+
+   var xLarge: EdgeInsets {
+      return EdgeInsets(top: 0, leading: 0, bottom: size.xLarge, trailing: 0)
+   }
+
+   var xxLarge: EdgeInsets {
+      return EdgeInsets(top: 0, leading: 0, bottom: size.xxLarge, trailing: 0)
+   }
+}
+
+
+
+
