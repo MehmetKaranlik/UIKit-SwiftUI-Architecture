@@ -51,10 +51,10 @@ Easy to use async / await  networking package that is generic by default.
 
 Root<br />
    -Product<br />
-         -Init<br />
-            -ProductInitialize.swift (Initialization codes of app stored here and called with single static function)<br />
-         -DesignKit<br />
-            -Fonts.swift ( Fonts that required by DesignKit package stored here )<br />
+         - Init<br />
+            - ProductInitialize.swift (Initialization codes of app stored here and called with single static function)<br />
+         - DesignKit<br />
+            - Fonts.swift ( Fonts that required by DesignKit package stored here )<br />
             ```swift
             struct Fonts : AppFonts 
             ```
