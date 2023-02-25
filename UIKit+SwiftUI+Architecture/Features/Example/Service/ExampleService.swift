@@ -15,12 +15,10 @@ struct ExampleService : IExampleService {
    var manager:  NetworkManager<BaseErrorModel>
 
    func exampleFunc() async  {
-      let  result = await manager.send(
+      let  _ = await manager.send(
          NetworkPaths.examplePath.rawValue,
          parseModel: ExampleModel.self,
-         requestType: .GET, body: nil,
-         bodyType: .JSON,
-         queryParameters: nil
+         requestType: .GET
       )
    }
 
