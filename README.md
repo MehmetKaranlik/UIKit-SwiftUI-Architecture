@@ -48,7 +48,6 @@ Easy to use async / await  networking package that is generic by default.
 - **Project Structure** 
 
 
-
 Root<br />
    -Product<br />
          - Init<br />
@@ -57,28 +56,28 @@ Root<br />
             - Fonts.swift ( Fonts that required by DesignKit package stored here )<br />
             ```swift
             struct Fonts : AppFonts 
-            ```
-            -Colors.swift ( Colors that required by DesignKit package stored here )<br />
+            ```<br />
+            - Colors.swift ( Colors that required by DesignKit package stored here )<br />
             ```swift
             struct Colors : AppColors 
-            ```
-            -Sizes.swift (Sizes that required by DesignKit package stored here)<br />
+            ```<br />
+            - Sizes.swift (Sizes that required by DesignKit package stored here)<br />
             ```swift
             struct Sizes : AppSizes
-            ```
-         -Networking<br />
-            -ProductNetworkManager.swift (A handler for projects network request that uses networking package, containts base url & error model etc.)<br />
+            ```<br />
+         - Networking<br />
+            - ProductNetworkManager.swift (A handler for projects network request that uses networking package, containts base url & error model etc.)<br />
          
-         -Model<br />
-            -Base<br />
-               -BaseErrorModel.swift ( A Model that conforms codable required by networking package. If you get error from network call this model will be casted)<br />
+         - Model<br />
+            - Base<br />
+               - BaseErrorModel.swift ( A Model that conforms codable required by networking package. If you get error from network call this model will be casted)<br />
          
-   - Features (This is where screens and related folders are stored, this folder can branched more like auth & tab & sub-features)
-      - Example (Example screen related directories)
-            - View ( SwiftUI View or UIKit UIView that holds screens UI codes, does not contain business logic)
-                - ExampleView.swift ( ExampleView : View || ExampleView : UIView)
-            - ViewController
-                - ExampleViewController.swift ( UIKit UIViewController that coordinates view & delegates also such as Tab Customization & NavigationBar Customization)
+   - Features (This is where screens and related folders are stored, this folder can branched more like auth & tab & sub-features)<br />
+      - Example (Example screen related directories)<br />
+            - View ( SwiftUI View or UIKit UIView that holds screens UI codes, does not contain business logic)<br />
+                - ExampleView.swift ( ExampleView : View || ExampleView : UIView)<br />
+            - ViewController<br />
+                - ExampleViewController.swift ( UIKit UIViewController that coordinates view & delegates also such as Tab Customization & NavigationBar Customization)<br />
                 
                 ```swift
                 class ExampleViewController : UIViewController {
@@ -93,12 +92,12 @@ Root<br />
                }
 
 
-                ```
-                toHostingController and addToVC extensions stored in core package 
-            - ViewModel
-                - ExampleViewModel.swift
-            - Model
-            - Service   
+                ```<br />
+                toHostingController and addToVC extensions stored in core package <br />
+            - ViewModel<br />
+                - ExampleViewModel.swift<br />
+            - Model<br />
+            - Service   <br />
             
          
             
