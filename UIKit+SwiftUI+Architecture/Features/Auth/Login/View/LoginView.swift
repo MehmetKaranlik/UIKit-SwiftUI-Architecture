@@ -16,13 +16,10 @@ struct LoginView: View {
 
    var delegate : LoginDelegate?
 
- 
-   
     var body: some View {
        ScrollView {
-          ProductText.largeTitle("asd")
+          ProductText.largeTitle("a")
        }
-
     }
 }
 
