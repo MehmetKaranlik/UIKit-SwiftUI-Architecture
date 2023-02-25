@@ -50,28 +50,28 @@ Easy to use async / await  networking package that is generic by default.
 
 
 Root
-   - Product
-         - Init
-            - ProductInitialize.swift (Initialization codes of app stored here and called with single static function)
-         - DesignKit
-            - Fonts.swift ( Fonts that required by DesignKit package stored here )
+   -Product
+         -Init
+            -ProductInitialize.swift (Initialization codes of app stored here and called with single static function)/br
+         -DesignKit/br
+            -Fonts.swift ( Fonts that required by DesignKit package stored here )/br
             ```swift
             struct Fonts : AppFonts 
             ```
-            - Colors.swift ( Colors that required by DesignKit package stored here )
+            -Colors.swift ( Colors that required by DesignKit package stored here )/br
             ```swift
             struct Colors : AppColors 
             ```
-            - Sizes.swift (Sizes that required by DesignKit package stored here)
+            -Sizes.swift (Sizes that required by DesignKit package stored here)/br
             ```swift
             struct Sizes : AppSizes
             ```
-         - Networking
-            - ProductNetworkManager.swift (A handler for projects network request that uses networking package, containts base url & error model etc.)
+         -Networking/br
+            -ProductNetworkManager.swift (A handler for projects network request that uses networking package, containts base url & error model etc.)
          
-         - Model
-            - Base
-               - BaseErrorModel.swift ( A Model that conforms codable required by networking package. If you get error from network call this model will be casted)
+         -Model
+            -Base
+               -BaseErrorModel.swift ( A Model that conforms codable required by networking package. If you get error from network call this model will be casted)
          
    - Features (This is where screens and related folders are stored, this folder can branched more like auth & tab & sub-features)
       - Example (Example screen related directories)
@@ -98,7 +98,7 @@ Root
             - ViewModel
                 - ExampleViewModel.swift
             - Model
-            - Service
+            - Service   
             
          
             
