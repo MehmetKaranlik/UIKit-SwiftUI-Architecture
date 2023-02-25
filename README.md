@@ -71,6 +71,7 @@ Root<br />
             - ViewController<br />
                 - ExampleViewController.swift ( UIKit UIViewController that coordinates view & delegates also such as Tab Customization & NavigationBar Customization)
                 
+                
                 ```swift
                 class ExampleViewController : UIViewController {
                      let homeView = HomeView() // SwiftUI View
@@ -88,9 +89,14 @@ Root<br />
                 
                 toHostingController and addToVC extensions stored in core package <br />
             - ViewModel<br />
-                - ExampleViewModel.swift<br />
-            - Model<br />
-            - Service   <br />
+                - ExampleViewModel.swift<br /> (Which is class and conforms to observable object)
+                
+            - Model (Models that exclusive to that particular screen)<br />
+                - ExampleModel.swift
+                - ExampleAnotherModel.swift
+            - Service(Contains networking logic and functions unrelated to business logic & ui logic)<br />
+                - IExampleService(Protocol that is defines service functions and getter of INetworkManager)
+                - ExampleService(Struct that conforms IExampleService)
             
          
             
