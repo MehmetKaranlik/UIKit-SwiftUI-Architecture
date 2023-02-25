@@ -50,17 +50,17 @@ Easy to use async / await  networking package that is generic by default.
 
 Root<br />
    - Product<br />
-         - Init<br />
+        - Init<br />
             - ProductInitialize.swift (Initialization codes of app stored here and called with single static function)<br />
         - DesignKit<br />
             - Fonts.swift ( Fonts that required by DesignKit package stored here )<br />
             - Colors.swift ( Colors that required by DesignKit package stored here )<br />
             - Sizes.swift (Sizes that required by DesignKit package stored here)<br />
           
-         - Networking<br />
+        - Networking<br />
             - ProductNetworkManager.swift (A handler for projects network request that uses networking package, containts base url & error model etc.)<br />
          
-         - Model<br />
+        - Model<br />
             - Base<br />
                - BaseErrorModel.swift ( A Model that conforms codable required by networking package. If you get error from network call this model will be casted)<br />
          
