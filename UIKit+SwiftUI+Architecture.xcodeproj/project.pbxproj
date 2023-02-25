@@ -207,19 +207,19 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
-		46D9614929A2EE91008F54E6 /* Home */ = {
+		46D9614929A2EE91008F54E6 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				46D9614C29A2EEE2008F54E6 /* ViewController */,
 				46D9614B29A2EEE0008F54E6 /* View */,
 			);
-			path = Home;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		46D9614A29A2EEAE008F54E6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				46D9614929A2EE91008F54E6 /* Home */,
+				46D9614929A2EE91008F54E6 /* Example */,
 				46D9614829A2EE87008F54E6 /* Search */,
 				46D9614729A2EE83008F54E6 /* Tab */,
 			);

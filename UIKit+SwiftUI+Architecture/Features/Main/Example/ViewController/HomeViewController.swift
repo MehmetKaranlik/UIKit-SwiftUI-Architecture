@@ -12,19 +12,15 @@ import UIKit
 import DesignKit
 
 
-class HomeViewController : UIViewController {
+class ExampleViewController : UIViewController {
    let homeView = HomeView()
    
    override func viewDidLoad() {
       super.viewDidLoad()
       let hosted = homeView.toHostingController()
       hosted.addToVC(target: self)
-      setNavigationTitle("home",prefersLargeTitle: false)
+      setNavigationTitle("Example",prefersLargeTitle: false)
    }
-
       // MARK:  Makers
-
-
-
 }
 
