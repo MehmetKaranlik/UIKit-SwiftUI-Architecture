@@ -54,26 +54,9 @@ Root<br />
             - ProductInitialize.swift (Initialization codes of app stored here and called with single static function)<br />
          - DesignKit<br />
             - Fonts.swift ( Fonts that required by DesignKit package stored here )<br />
-            
-            ````swift
-            
-            struct Fonts : AppFonts 
-            
-            ```` 
-            <br />
             - Colors.swift ( Colors that required by DesignKit package stored here )<br />
-            
-            ````swift
-            
-            struct Colors : AppColors
-             
-            ````
-            <br />
-            
             - Sizes.swift (Sizes that required by DesignKit package stored here)<br />
-            ```swift
-            struct Sizes : AppSizes
-            ```<br />
+          
          - Networking<br />
             - ProductNetworkManager.swift (A handler for projects network request that uses networking package, containts base url & error model etc.)<br />
          
