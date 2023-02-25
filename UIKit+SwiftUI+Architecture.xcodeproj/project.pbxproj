@@ -12,6 +12,8 @@
 		469AA80C29AA57D3005BB4FD /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = 469AA80B29AA57D3005BB4FD /* DesignKit */; };
 		469AA80F29AA6014005BB4FD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA80E29AA6014005BB4FD /* Fonts.swift */; };
 		469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA81129AA6358005BB4FD /* ProductInitialize.swift */; };
+		469AA81429AA64E6005BB4FD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA81329AA64E6005BB4FD /* Colors.swift */; };
+		469AA81629AA64EE005BB4FD /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA81529AA64EE005BB4FD /* Sizes.swift */; };
 		46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D960ED29A2C64B008F54E6 /* AppDelegate.swift */; };
 		46D960F029A2C64B008F54E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D960EF29A2C64B008F54E6 /* SceneDelegate.swift */; };
 		46D960F729A2C64C008F54E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D960F629A2C64C008F54E6 /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseErrorModel.swift; sourceTree = "<group>"; };
 		469AA80E29AA6014005BB4FD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		469AA81129AA6358005BB4FD /* ProductInitialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInitialize.swift; sourceTree = "<group>"; };
+		469AA81329AA64E6005BB4FD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		469AA81529AA64EE005BB4FD /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
 		46D960EA29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit+SwiftUI+Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D960ED29A2C64B008F54E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D960EF29A2C64B008F54E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				469AA80E29AA6014005BB4FD /* Fonts.swift */,
+				469AA81329AA64E6005BB4FD /* Colors.swift */,
+				469AA81529AA64EE005BB4FD /* Sizes.swift */,
 			);
 			path = DesignKit;
 			sourceTree = "<group>";
@@ -351,8 +357,10 @@
 				46D9612829A2D437008F54E6 /* SearchViewController.swift in Sources */,
 				46D9615C29A2F41E008F54E6 /* ProductNetworkManager.swift in Sources */,
 				46D9610D29A2C9AF008F54E6 /* LoginViewController.swift in Sources */,
+				469AA81429AA64E6005BB4FD /* Colors.swift in Sources */,
 				46D9611A29A2CC8E008F54E6 /* MainTabController.swift in Sources */,
 				469AA80F29AA6014005BB4FD /* Fonts.swift in Sources */,
+				469AA81629AA64EE005BB4FD /* Sizes.swift in Sources */,
 				469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */,
 				46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */,
 				46D9612629A2D421008F54E6 /* HomeViewController.swift in Sources */,

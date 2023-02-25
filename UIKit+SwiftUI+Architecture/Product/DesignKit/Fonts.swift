@@ -9,7 +9,7 @@ import Foundation
 import DesignKit
 import SwiftUI
 
-
+/// Set your design values here to initialize DesignKit 
 struct Fonts : AppFonts {
    var largeTitle: Font? = SwiftUI.Font.largeTitle
 
@@ -34,6 +34,5 @@ struct Fonts : AppFonts {
    var caption2: Font?
 
    var small: Font?
-
 
 }
