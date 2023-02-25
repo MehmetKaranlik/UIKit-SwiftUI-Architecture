@@ -27,11 +27,11 @@ https://github.com/MehmetKaranlik/Core
 Contains project independted highly generic design related objects likes pre defined Text models,
 
 
-```swift
+````swift
       DesignKit.shared.setFonts(Fonts())
       DesignKit.shared.setDesignSizes(Sizes())
       DesignKit.shared.setColors(Colors())
-```
+````
 
 **Warning** <br />
 Although using not setted feature is prevented by asserting, please make sure you set related variables before using that related features.
@@ -93,7 +93,7 @@ Root<br />
                 
                 toHostingController and addToVC extensions stored in core package <br />
             - ViewModel<br />
-                - ExampleViewModel.swift<br /> (Which is class and conforms to observable object)
+                - ExampleViewModel.swift<br /> (Which is class and conforms to ObservableObject protocol)
                 
             - Model (Models that exclusive to that particular screen)<br />
                 - ExampleModel.swift

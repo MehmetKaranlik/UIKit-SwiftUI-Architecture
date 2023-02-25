@@ -11,7 +11,7 @@ import Core
 
 struct ProductNetworkManager {
 
-   let networkManager : any INetworkManager
+   let networkManager :  NetworkManager<BaseErrorModel>
    
    init() {
       self.networkManager = NetworkManager(

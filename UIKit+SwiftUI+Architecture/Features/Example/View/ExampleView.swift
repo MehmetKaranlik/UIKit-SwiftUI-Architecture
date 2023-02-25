@@ -13,12 +13,18 @@ protocol ExampleDelegate {
 }
 
 struct ExampleView: View {
-
+   let service : IExampleService
+   let viewModel : ExampleViewModel
    var delegate : ExampleDelegate?
+
+   init() {
+      self.service = ExampleService(manager: ProductNetworkManager().networkManager)
+      self.viewModel = ExampleViewModel(service: service)
+   }
 
     var body: some View {
        ScrollView {
-          ProductText.largeTitle("a")
+          ProductText.largeTitle("ExampleView")
        }
     }
 }
