@@ -18,12 +18,7 @@
 		46D960F029A2C64B008F54E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D960EF29A2C64B008F54E6 /* SceneDelegate.swift */; };
 		46D960F729A2C64C008F54E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D960F629A2C64C008F54E6 /* Assets.xcassets */; };
 		46D9610D29A2C9AF008F54E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9610C29A2C9AF008F54E6 /* LoginViewController.swift */; };
-		46D9610F29A2C9CA008F54E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9610E29A2C9CA008F54E6 /* LoginView.swift */; };
-		46D9611A29A2CC8E008F54E6 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9611929A2CC8E008F54E6 /* MainTabController.swift */; };
-		46D9612629A2D421008F54E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9612529A2D421008F54E6 /* HomeViewController.swift */; };
-		46D9612829A2D437008F54E6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9612729A2D437008F54E6 /* SearchViewController.swift */; };
-		46D9612A29A2D5A4008F54E6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9612929A2D5A4008F54E6 /* HomeView.swift */; };
-		46D9612C29A2D624008F54E6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9612B29A2D624008F54E6 /* SearchView.swift */; };
+		46D9610F29A2C9CA008F54E6 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9610E29A2C9CA008F54E6 /* ExampleView.swift */; };
 		46D9615629A2F37C008F54E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46D9615529A2F37B008F54E6 /* README.md */; };
 		46D9615A29A2F412008F54E6 /* NetworkManagerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 46D9615929A2F412008F54E6 /* NetworkManagerPackage */; };
 		46D9615C29A2F41E008F54E6 /* ProductNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9615B29A2F41E008F54E6 /* ProductNetworkManager.swift */; };
@@ -41,12 +36,7 @@
 		46D960F629A2C64C008F54E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D960FB29A2C64C008F54E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D9610C29A2C9AF008F54E6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		46D9610E29A2C9CA008F54E6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		46D9611929A2CC8E008F54E6 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
-		46D9612529A2D421008F54E6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		46D9612729A2D437008F54E6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		46D9612929A2D5A4008F54E6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		46D9612B29A2D624008F54E6 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		46D9610E29A2C9CA008F54E6 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		46D9615529A2F37B008F54E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		46D9615B29A2F41E008F54E6 /* ProductNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,27 +141,18 @@
 		46D9613E29A2EE05008F54E6 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				46D9614A29A2EEAE008F54E6 /* Main */,
-				46D9614029A2EE2D008F54E6 /* Auth */,
+				46D9614129A2EE45008F54E6 /* Example */,
 			);
 			path = Features;
 			sourceTree = "<group>";
 		};
-		46D9614029A2EE2D008F54E6 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				46D9614129A2EE45008F54E6 /* Login */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		46D9614129A2EE45008F54E6 /* Login */ = {
+		46D9614129A2EE45008F54E6 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				46D9614329A2EE50008F54E6 /* View */,
 				46D9614229A2EE4A008F54E6 /* ViewController */,
 			);
-			path = Login;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		46D9614229A2EE4A008F54E6 /* ViewController */ = {
@@ -185,85 +166,9 @@
 		46D9614329A2EE50008F54E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				46D9610E29A2C9CA008F54E6 /* LoginView.swift */,
+				46D9610E29A2C9CA008F54E6 /* ExampleView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		46D9614729A2EE83008F54E6 /* Tab */ = {
-			isa = PBXGroup;
-			children = (
-				46D9614F29A2EF13008F54E6 /* ViewController */,
-			);
-			path = Tab;
-			sourceTree = "<group>";
-		};
-		46D9614829A2EE87008F54E6 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				46D9614E29A2EF01008F54E6 /* View */,
-				46D9614D29A2EEFE008F54E6 /* ViewController */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		46D9614929A2EE91008F54E6 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				46D9614C29A2EEE2008F54E6 /* ViewController */,
-				46D9614B29A2EEE0008F54E6 /* View */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		46D9614A29A2EEAE008F54E6 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				46D9614929A2EE91008F54E6 /* Example */,
-				46D9614829A2EE87008F54E6 /* Search */,
-				46D9614729A2EE83008F54E6 /* Tab */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		46D9614B29A2EEE0008F54E6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				46D9612929A2D5A4008F54E6 /* HomeView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		46D9614C29A2EEE2008F54E6 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				46D9612529A2D421008F54E6 /* HomeViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		46D9614D29A2EEFE008F54E6 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				46D9612729A2D437008F54E6 /* SearchViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		46D9614E29A2EF01008F54E6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				46D9612B29A2D624008F54E6 /* SearchView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		46D9614F29A2EF13008F54E6 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				46D9611929A2CC8E008F54E6 /* MainTabController.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		46D9615729A2F3EB008F54E6 /* Networking */ = {
@@ -354,19 +259,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D9612829A2D437008F54E6 /* SearchViewController.swift in Sources */,
 				46D9615C29A2F41E008F54E6 /* ProductNetworkManager.swift in Sources */,
 				46D9610D29A2C9AF008F54E6 /* LoginViewController.swift in Sources */,
 				469AA81429AA64E6005BB4FD /* Colors.swift in Sources */,
-				46D9611A29A2CC8E008F54E6 /* MainTabController.swift in Sources */,
 				469AA80F29AA6014005BB4FD /* Fonts.swift in Sources */,
 				469AA81629AA64EE005BB4FD /* Sizes.swift in Sources */,
 				469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */,
 				46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */,
-				46D9612629A2D421008F54E6 /* HomeViewController.swift in Sources */,
-				46D9612C29A2D624008F54E6 /* SearchView.swift in Sources */,
-				46D9610F29A2C9CA008F54E6 /* LoginView.swift in Sources */,
-				46D9612A29A2D5A4008F54E6 /* HomeView.swift in Sources */,
+				46D9610F29A2C9CA008F54E6 /* ExampleView.swift in Sources */,
 				46D960F029A2C64B008F54E6 /* SceneDelegate.swift in Sources */,
 				4652B03029A4422F00C9F94B /* BaseErrorModel.swift in Sources */,
 			);

@@ -8,13 +8,13 @@
 import SwiftUI
 import DesignKit
 
-protocol LoginDelegate {
+protocol ExampleDelegate {
    func didTapNext()
 }
 
-struct LoginView: View {
+struct ExampleView: View {
 
-   var delegate : LoginDelegate?
+   var delegate : ExampleDelegate?
 
     var body: some View {
        ScrollView {
@@ -25,6 +25,6 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        ExampleView()
     }
 }

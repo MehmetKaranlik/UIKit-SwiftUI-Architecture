@@ -33,7 +33,7 @@ Contains project independted highly generic design related objects likes pre def
       DesignKit.shared.setColors(Colors())
 ```
 
-- **Warning** 
+**Warning** <br />
 Although using not setted feature is prevented by asserting, please make sure you set related variables before using that related features.
 Otherwise you may run into runtime crashes.
 
@@ -43,12 +43,16 @@ https://github.com/MehmetKaranlik/DesignKit
 
 Easy to use async / await  networking package that is generic by default.
 
+https://github.com/MehmetKaranlik/NetworkManager
+
 
 
 - **Project Structure** 
 
 
 Root<br />
+   - AppDelegate.swift (ProductInitilize called here to set configs of DesignKit)
+   - SceneDelegate.swift
    - Product<br />
         - Init
             - ProductInitialize.swift (Initialization codes of app stored here and called with single static function)<br />

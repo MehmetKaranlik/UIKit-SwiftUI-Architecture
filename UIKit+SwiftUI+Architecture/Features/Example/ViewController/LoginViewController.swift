@@ -10,9 +10,9 @@ import UIKit
 import SwiftUI
 
 
-class LoginViewController : UIViewController {
+class ExampleViewController : UIViewController {
 
-   var loginView = LoginView()
+   var loginView = ExampleView()
 
 
    override func viewDidLoad() {
@@ -25,9 +25,9 @@ class LoginViewController : UIViewController {
    }
 }
 
-extension LoginViewController : LoginDelegate {
+extension ExampleViewController : ExampleDelegate {
    func didTapNext() {
-      replaceRoot(MainTabController())
+      // SwiftUI view and UIkit coordination that relies on Protocol & Delegate pattern
    }
 
 
