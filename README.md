@@ -69,7 +69,7 @@ Root<br />
             - View ( SwiftUI View or UIKit UIView that holds screens UI codes, does not contain business logic)<br />
                 - ExampleView.swift ( ExampleView : View || ExampleView : UIView)<br />
             - ViewController<br />
-                - ExampleViewController.swift ( UIKit UIViewController that coordinates view & delegates also such as Tab Customization & NavigationBar Customization)<br />
+                - ExampleViewController.swift ( UIKit UIViewController that coordinates view & delegates also such as Tab Customization & NavigationBar Customization)
                 
                 ```swift
                 class ExampleViewController : UIViewController {
@@ -84,7 +84,8 @@ Root<br />
                }
 
 
-                ```<br />
+                ```
+                
                 toHostingController and addToVC extensions stored in core package <br />
             - ViewModel<br />
                 - ExampleViewModel.swift<br />
