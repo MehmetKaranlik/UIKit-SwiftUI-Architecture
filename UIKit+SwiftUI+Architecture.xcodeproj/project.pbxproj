@@ -40,7 +40,7 @@
 		46CF79EC29AAC6F90072DF2C /* IExampleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IExampleService.swift; sourceTree = "<group>"; };
 		46CF79EE29AAC72B0072DF2C /* ExampleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleService.swift; sourceTree = "<group>"; };
 		46CF79F029AAC7A50072DF2C /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
-		46D960EA29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit+SwiftUI+Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D960EA29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "UIKit+SwiftUI+Architecture.app"; path = "/Users/mehmetkaranlik/Desktop/Repositories/SesimiDuy/UIKit-SwiftUI-Architecture/build/Debug-iphoneos/UIKit+SwiftUI+Architecture.app"; sourceTree = "<absolute>"; };
 		46D960ED29A2C64B008F54E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D960EF29A2C64B008F54E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		46D960F629A2C64C008F54E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -163,17 +163,8 @@
 			children = (
 				46D9615529A2F37B008F54E6 /* README.md */,
 				46D960EC29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture */,
-				46D960EB29A2C64B008F54E6 /* Products */,
 				464305D429ABAC9400042318 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		46D960EB29A2C64B008F54E6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				46D960EA29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		46D960EC29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture */ = {
@@ -296,7 +287,7 @@
 				4657604029B16A6100BA8AC8 /* XCRemoteSwiftPackageReference "DesignKit" */,
 				4657604329B16A6F00BA8AC8 /* XCRemoteSwiftPackageReference "NetworkManager" */,
 			);
-			productRefGroup = 46D960EB29A2C64B008F54E6 /* Products */;
+			productRefGroup = 46D960E129A2C64B008F54E6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
