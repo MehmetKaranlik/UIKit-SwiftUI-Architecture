@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4652B03029A4422F00C9F94B /* BaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */; };
+		4657603F29B16A5200BA8AC8 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4657603E29B16A5200BA8AC8 /* Core */; };
+		4657604229B16A6100BA8AC8 /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4657604129B16A6100BA8AC8 /* DesignKit */; };
+		4657604529B16A6F00BA8AC8 /* NetworkManagerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 4657604429B16A6F00BA8AC8 /* NetworkManagerPackage */; };
 		467A9C1229B166B500E9F85F /* ExampleTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A9C1129B166B500E9F85F /* ExampleTabViewController.swift */; };
 		469AA80F29AA6014005BB4FD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA80E29AA6014005BB4FD /* Fonts.swift */; };
 		469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA81129AA6358005BB4FD /* ProductInitialize.swift */; };
@@ -53,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4657603F29B16A5200BA8AC8 /* Core in Frameworks */,
+				4657604229B16A6100BA8AC8 /* DesignKit in Frameworks */,
+				4657604529B16A6F00BA8AC8 /* NetworkManagerPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +259,9 @@
 			);
 			name = "UIKit+SwiftUI+Architecture";
 			packageProductDependencies = (
+				4657603E29B16A5200BA8AC8 /* Core */,
+				4657604129B16A6100BA8AC8 /* DesignKit */,
+				4657604429B16A6F00BA8AC8 /* NetworkManagerPackage */,
 			);
 			productName = "UIKit+SwiftUI+Architecture";
 			productReference = 46D960EA29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture.app */;
@@ -283,6 +292,9 @@
 			);
 			mainGroup = 46D960E129A2C64B008F54E6;
 			packageReferences = (
+				4657603D29B16A5200BA8AC8 /* XCRemoteSwiftPackageReference "Core" */,
+				4657604029B16A6100BA8AC8 /* XCRemoteSwiftPackageReference "DesignKit" */,
+				4657604329B16A6F00BA8AC8 /* XCRemoteSwiftPackageReference "NetworkManager" */,
 			);
 			productRefGroup = 46D960EB29A2C64B008F54E6 /* Products */;
 			projectDirPath = "";
@@ -521,6 +533,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4657603D29B16A5200BA8AC8 /* XCRemoteSwiftPackageReference "Core" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MehmetKaranlik/Core.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4657604029B16A6100BA8AC8 /* XCRemoteSwiftPackageReference "DesignKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MehmetKaranlik/DesignKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4657604329B16A6F00BA8AC8 /* XCRemoteSwiftPackageReference "NetworkManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MehmetKaranlik/NetworkManager";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4657603E29B16A5200BA8AC8 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4657603D29B16A5200BA8AC8 /* XCRemoteSwiftPackageReference "Core" */;
+			productName = Core;
+		};
+		4657604129B16A6100BA8AC8 /* DesignKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4657604029B16A6100BA8AC8 /* XCRemoteSwiftPackageReference "DesignKit" */;
+			productName = DesignKit;
+		};
+		4657604429B16A6F00BA8AC8 /* NetworkManagerPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4657604329B16A6F00BA8AC8 /* XCRemoteSwiftPackageReference "NetworkManager" */;
+			productName = NetworkManagerPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46D960E229A2C64B008F54E6 /* Project object */;
 }

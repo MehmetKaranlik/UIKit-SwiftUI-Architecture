@@ -7,37 +7,31 @@
 
 import Foundation
 
-
-import UIKit
-import SwiftUI
 import Core
+import SwiftUI
+import UIKit
 
-class ExampleTabViewController : UITabBarController {
-
-
+class ExampleTabViewController: UITabBarController {
    override func viewDidLoad() {
-
       super.viewDidLoad()
-      setViewControllers(DataProvider.views.enumerated().map({ index, view in
-         view
-            .wrapNavigationController()
-            .withTabBarItem(DataProvider.tabItems[index])
-      }), animated: false)
+      setViewControllers(
+         DataProvider.views.enumerated().map({ index, view in
+            view
+               .wrapNavigationController()
+               .withTabBarItem(DataProvider.tabItems[index])
+         }
+         ), animated: false)
    }
-
 }
 
-
-
-private struct DataProvider {
-   static let views : [UIViewController] = [
-      ExampleView().toHostingController(),
-      ExampleView().toHostingController(),
+private enum DataProvider {
+   static let views: [UIViewController] = [
+      ExampleViewController(pageTitle: "bookmarks"),
+      ExampleViewController(pageTitle: "contacts"),
    ]
 
-   static let tabItems : [UITabBarItem] = [
+   static let tabItems: [UITabBarItem] = [
       UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0),
-      UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
+      UITabBarItem(tabBarSystemItem: .contacts, tag: 1),
    ]
 }
-

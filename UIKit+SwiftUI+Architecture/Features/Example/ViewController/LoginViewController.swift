@@ -14,13 +14,23 @@ class ExampleViewController : UIViewController {
 
    var loginView = ExampleView()
 
+   let pageTitle : String?
+
+   init( pageTitle: String?=nil) {
+      self.pageTitle = pageTitle
+      super.init(nibName: nil, bundle: nil)
+   }
+
+   required init?(coder: NSCoder) {
+      fatalError("init(coder:) has not been implemented")
+   }
 
    override func viewDidLoad() {
       super.viewDidLoad()
       loginView.delegate = self
       let hostedView = loginView.toHostingController()
       hostedView.addToVC(target: self)
-      setNavigationTitle("login",prefersLargeTitle: true)
+      setNavigationTitle(pageTitle ?? "Example",prefersLargeTitle: true)
 
    }
 }
