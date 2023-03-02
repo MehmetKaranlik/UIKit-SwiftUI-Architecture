@@ -23,9 +23,13 @@ struct ExampleView: View {
    }
 
     var body: some View {
-       ScrollView {
+
+       VStack {
           ProductText.largeTitle("ExampleView")
+          Spacer()
        }
+
+
     }
 }
 

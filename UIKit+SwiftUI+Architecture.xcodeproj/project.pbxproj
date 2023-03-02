@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4652B03029A4422F00C9F94B /* BaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */; };
-		469AA80429AA47A6005BB4FD /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 469AA80329AA47A6005BB4FD /* Core */; };
-		469AA80C29AA57D3005BB4FD /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = 469AA80B29AA57D3005BB4FD /* DesignKit */; };
+		467A9C1229B166B500E9F85F /* ExampleTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A9C1129B166B500E9F85F /* ExampleTabViewController.swift */; };
 		469AA80F29AA6014005BB4FD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA80E29AA6014005BB4FD /* Fonts.swift */; };
 		469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA81129AA6358005BB4FD /* ProductInitialize.swift */; };
 		469AA81429AA64E6005BB4FD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA81329AA64E6005BB4FD /* Colors.swift */; };
@@ -24,12 +23,12 @@
 		46D9610D29A2C9AF008F54E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9610C29A2C9AF008F54E6 /* LoginViewController.swift */; };
 		46D9610F29A2C9CA008F54E6 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9610E29A2C9CA008F54E6 /* ExampleView.swift */; };
 		46D9615629A2F37C008F54E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46D9615529A2F37B008F54E6 /* README.md */; };
-		46D9615A29A2F412008F54E6 /* NetworkManagerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 46D9615929A2F412008F54E6 /* NetworkManagerPackage */; };
 		46D9615C29A2F41E008F54E6 /* ProductNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9615B29A2F41E008F54E6 /* ProductNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseErrorModel.swift; sourceTree = "<group>"; };
+		467A9C1129B166B500E9F85F /* ExampleTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTabViewController.swift; sourceTree = "<group>"; };
 		469AA80E29AA6014005BB4FD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		469AA81129AA6358005BB4FD /* ProductInitialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInitialize.swift; sourceTree = "<group>"; };
 		469AA81329AA64E6005BB4FD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -54,15 +53,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D9615A29A2F412008F54E6 /* NetworkManagerPackage in Frameworks */,
-				469AA80429AA47A6005BB4FD /* Core in Frameworks */,
-				469AA80C29AA57D3005BB4FD /* DesignKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		464305D429ABAC9400042318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4652B02C29A4421C00C9F94B /* Product */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +91,22 @@
 				4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		467A9C0C29B1669000E9F85F /* ExampleTab */ = {
+			isa = PBXGroup;
+			children = (
+				467A9C0E29B1669D00E9F85F /* ViewController */,
+			);
+			path = ExampleTab;
+			sourceTree = "<group>";
+		};
+		467A9C0E29B1669D00E9F85F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				467A9C1129B166B500E9F85F /* ExampleTabViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		469AA80D29AA6007005BB4FD /* DesignKit */ = {
@@ -139,6 +158,7 @@
 				46D9615529A2F37B008F54E6 /* README.md */,
 				46D960EC29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture */,
 				46D960EB29A2C64B008F54E6 /* Products */,
+				464305D429ABAC9400042318 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +194,7 @@
 		46D9613E29A2EE05008F54E6 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				467A9C0C29B1669000E9F85F /* ExampleTab */,
 				46D9614129A2EE45008F54E6 /* Example */,
 			);
 			path = Features;
@@ -232,9 +253,6 @@
 			);
 			name = "UIKit+SwiftUI+Architecture";
 			packageProductDependencies = (
-				46D9615929A2F412008F54E6 /* NetworkManagerPackage */,
-				469AA80329AA47A6005BB4FD /* Core */,
-				469AA80B29AA57D3005BB4FD /* DesignKit */,
 			);
 			productName = "UIKit+SwiftUI+Architecture";
 			productReference = 46D960EA29A2C64B008F54E6 /* UIKit+SwiftUI+Architecture.app */;
@@ -265,9 +283,6 @@
 			);
 			mainGroup = 46D960E129A2C64B008F54E6;
 			packageReferences = (
-				46D9615829A2F412008F54E6 /* XCRemoteSwiftPackageReference "NetworkManager" */,
-				469AA80229AA47A6005BB4FD /* XCRemoteSwiftPackageReference "Core" */,
-				469AA80A29AA57D3005BB4FD /* XCRemoteSwiftPackageReference "DesignKit" */,
 			);
 			productRefGroup = 46D960EB29A2C64B008F54E6 /* Products */;
 			projectDirPath = "";
@@ -303,6 +318,7 @@
 				469AA81629AA64EE005BB4FD /* Sizes.swift in Sources */,
 				469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */,
 				46CF79ED29AAC6F90072DF2C /* IExampleService.swift in Sources */,
+				467A9C1229B166B500E9F85F /* ExampleTabViewController.swift in Sources */,
 				46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */,
 				46CF79EF29AAC72B0072DF2C /* ExampleService.swift in Sources */,
 				46D9610F29A2C9CA008F54E6 /* ExampleView.swift in Sources */,
@@ -505,51 +521,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		469AA80229AA47A6005BB4FD /* XCRemoteSwiftPackageReference "Core" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MehmetKaranlik/Core.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		469AA80A29AA57D3005BB4FD /* XCRemoteSwiftPackageReference "DesignKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MehmetKaranlik/DesignKit.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		46D9615829A2F412008F54E6 /* XCRemoteSwiftPackageReference "NetworkManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MehmetKaranlik/NetworkManager";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		469AA80329AA47A6005BB4FD /* Core */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 469AA80229AA47A6005BB4FD /* XCRemoteSwiftPackageReference "Core" */;
-			productName = Core;
-		};
-		469AA80B29AA57D3005BB4FD /* DesignKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 469AA80A29AA57D3005BB4FD /* XCRemoteSwiftPackageReference "DesignKit" */;
-			productName = DesignKit;
-		};
-		46D9615929A2F412008F54E6 /* NetworkManagerPackage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 46D9615829A2F412008F54E6 /* XCRemoteSwiftPackageReference "NetworkManager" */;
-			productName = NetworkManagerPackage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46D960E229A2C64B008F54E6 /* Project object */;
 }
